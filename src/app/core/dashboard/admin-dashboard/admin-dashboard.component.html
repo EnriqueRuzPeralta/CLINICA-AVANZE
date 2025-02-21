@@ -6,9 +6,9 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a [routerLink]="routes.adminDashboard">{{ 'DASHBOARD.Dashboard' | translate }} </a></li>
+                        <li class="breadcrumb-item"><a [routerLink]="routes.adminDashboard">{{ 'DASHBOARD.DASHBOARD' | translate }} </a></li>
                         <li class="breadcrumb-item"><i class="feather icon-chevron-right"></i></li>
-                        <li class="breadcrumb-item active">{{ 'DASHBOARD.Admin Dashboard' | translate }}</li>
+                        <li class="breadcrumb-item active">{{ 'DASHBOARD.ADMIN_DASHBOARD' | translate }}</li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +38,9 @@
                         <img src="assets/img/icons/calendar.svg" alt="">
                     </div>
                     <div class="dash-content dash-count">
-                        <h4>{{ 'DASHBOARD.Appointments' | translate }}</h4>
+                        <h4>{{ 'DASHBOARD.APPOINTMENTS' | translate }}</h4>
                         <h2><span class="counter-up" [countUp]="250" [options]="{duration: 10}">250</span></h2>
-                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>40%</span> vs {{ 'DASHBOARD.last month' | translate }}</p>
+                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>40%</span> vs {{ 'DASHBOARD.LAST_MONTH' | translate }}</p>
                     </div>
                 </div>
             </div>
@@ -50,10 +50,9 @@
                         <img src="assets/img/icons/profile-add.svg" alt="">
                     </div>
                     <div class="dash-content dash-count">
-                       
                         <h4>{{ 'DASHBOARD.NEW_PATIENTS' | translate }}</h4>
                         <h2><span class="counter-up" [countUp]="140" [options]="{duration: 10}">140</span></h2>
-                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>20%</span> vs {{ 'DASHBOARD.last month' | translate }}</p>
+                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>20%</span> vs {{ 'DASHBOARD.LAST_MONTH' | translate }}</p>
                     </div>
                 </div>
             </div>
@@ -63,9 +62,9 @@
                         <img src="assets/img/icons/scissor.svg" alt="">
                     </div>
                     <div class="dash-content dash-count">
-                        <h4>{{ 'DASHBOARD.Operations' | translate }}</h4>
+                        <h4>{{ 'DASHBOARD.OPERATIONS' | translate }}</h4>
                         <h2><span class="counter-up" [countUp]="56" [options]="{duration: 10}">56</span></h2>
-                        <p><span class="negative-view"><i class="feather icon-arrow-down-right me-1"></i>15%</span> vs {{ 'DASHBOARD.last month' | translate }}</p>
+                        <p><span class="negative-view"><i class="feather icon-arrow-down-right me-1"></i>15%</span> vs {{ 'DASHBOARD.LAST_MONTH' | translate }}</p>
                     </div>
                 </div>
             </div>
@@ -75,9 +74,9 @@
                         <img src="assets/img/icons/empty-wallet.svg" alt="">
                     </div>
                     <div class="dash-content dash-count">
-                        <h4>{{ 'DASHBOARD.Earnings' | translate }}</h4>
+                        <h4>{{ 'DASHBOARD.EARNINGS' | translate }}</h4>
                         <h2>$<span class="counter-up" [countUp]="20250" [options]="{duration: 10}"> 20,250</span></h2>
-                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>30%</span> vs {{ 'DASHBOARD.last month' | translate }}</p>
+                        <p><span class="passive-view"><i class="feather icon-arrow-up-right me-1"></i>30%</span> vs {{ 'DASHBOARD.LAST_MONTH' | translate }}</p>
                     </div>
                 </div>
             </div>
@@ -87,11 +86,11 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="chart-title patient-visit">
-                            <h4>{{ 'DASHBOARD.Patient_Visit_by_Gender' | translate }}</h4>
+                            <h4>{{ 'DASHBOARD.PATIENT_VISIT_BY_GENDER' | translate }}</h4>
                             <div >
                                 <ul class="nav chat-user-total">
-                                    <li><i class="fa fa-circle current-users" aria-hidden="true"></i>{{ 'DASHBOARD.Male' | translate }}</li>
-                                    <li><i class="fa fa-circle old-users" aria-hidden="true"></i>{{ 'DASHBOARD.Female' | translate }}</li>
+                                    <li><i class="fa fa-circle current-users" aria-hidden="true"></i>{{ 'DASHBOARD.MALE' | translate }}</li>
+                                    <li><i class="fa fa-circle old-users" aria-hidden="true"></i>{{ 'DASHBOARD.FEMALE' | translate }}</li>
                                 </ul>
                             </div>
                             <div class="form-group mb-0">
@@ -122,7 +121,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="chart-title">
-                            <h4>{{ 'DASHBOARD.Patient_Departament' | translate }}</h4>
+                            <h4>{{ 'DASHBOARD.PATIENT_DEPARTMENT' | translate }}</h4>
                         </div>	
                         <div id="donut-chart-dash" class="chart-user-icon">
                             <apx-chart class="donut-chart-custom"
@@ -142,7 +141,7 @@
             <div class="col-12 col-md-12  col-xl-4">
                 <div class="card top-departments">
                     <div class="card-header">
-                        <h4 class="card-title mb-0">{{ 'DASHBOARD.Top_Departaments' | translate }}</h4>
+                        <h4 class="card-title mb-0">{{ 'DASHBOARD.TOP_DEPARTMENTS' | translate }}</h4>
                     </div>
                     <div class="card-body">
                         <div class="activity-top">
@@ -150,7 +149,7 @@
                                 <img src="assets/img/icons/dep-icon-01.svg" alt="">
                             </div>
                             <div class="departments-list">
-                                <h4>{{ 'DASHBOARD.General_Physician' | translate }}</h4>
+                                <h4>{{ 'DASHBOARD.GENERAL_PHYSICIAN' | translate }}</h4>
                                 <p>35%</p>
                             </div>
                         </div>
@@ -159,7 +158,7 @@
                                 <img src="assets/img/icons/dep-icon-02.svg" alt="">
                             </div>
                             <div class="departments-list">
-                                <h4>{{ 'DASHBOARD.Dentist' | translate }}</h4>
+                                <h4>{{ 'DASHBOARD.DENTIST' | translate }}</h4>
                                 <p>24%</p>
                             </div>
                         </div>
@@ -177,7 +176,7 @@
                                 <img src="assets/img/icons/dep-icon-04.svg" alt="">
                             </div>
                             <div class="departments-list">
-                                <h4>{{ 'DASHBOARD.Cardiologist' | translate }}</h4>
+                                <h4>{{ 'DASHBOARD.CARDIOLOGIST' | translate }}</h4>
                                 <p>15%</p>
                             </div>
                         </div>
@@ -186,7 +185,7 @@
                                 <img src="assets/img/icons/dep-icon-05.svg" alt="">
                             </div>
                             <div class="departments-list">
-                                <h4>{{ 'DASHBOARD.Opthomology' | translate }}</h4>
+                                <h4>{{ 'DASHBOARD.OPHTHALMOLOGY' | translate }}</h4>
                                 <p>20%</p>
                             </div>
                         </div>
@@ -196,7 +195,7 @@
             <div class="col-12 col-md-12  col-xl-8">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title d-inline-block">{{ 'DASHBOARD.Upcoming Appointments' | translate }}</h4> <a [routerLink]="routes.appointmentList" class="patient-views float-end">{{ 'DASHBOARD.Show all' | translate }}</a>
+                        <h4 class="card-title d-inline-block">{{ 'DASHBOARD.UPCOMING_APPOINTMENTS' | translate }}</h4> <a [routerLink]="routes.appointmentList" class="patient-views float-end">{{ 'DASHBOARD.SHOW_ALL' | translate }}</a>
                     </div>
                     <div class="card-body p-0 table-dash">
                         <div class="table-responsive">
@@ -209,10 +208,10 @@
                                             </div>
                                         </th>
                                         <th mat-sort-header="no">No</th>
-                                        <th mat-sort-header="patientName">{{ 'DASHBOARD.Patient name' | translate }}</th>
+                                        <th mat-sort-header="patientName">{{ 'DASHBOARD.PATIENT_NAME' | translate }}</th>
                                         <th mat-sort-header="doctor">Doctor</th>
-                                        <th mat-sort-header="time">{{ 'DASHBOARD.Time' | translate }}</th>
-                                        <th mat-sort-header="disease">{{ 'DASHBOARD.Disease' | translate }}</th>
+                                        <th mat-sort-header="time">{{ 'DASHBOARD.TIME' | translate }}</th>
+                                        <th mat-sort-header="disease">{{ 'DASHBOARD.DISEASE' | translate }}</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -235,8 +234,8 @@
                                             <div class="dropdown dropdown-action">
                                                 <a href="javascript:void(0);" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item" [routerLink]="routes.editAppointment"><i class="fa-solid fa-pen-to-square m-r-5"></i> {{ 'DASHBOARD.Edit' | translate }}</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_appointment"><i class="fa fa-trash-alt m-r-5"></i> {{ 'DASHBOARD.Delete' | translate }}</a>
+                                                    <a class="dropdown-item" [routerLink]="routes.editAppointment"><i class="fa-solid fa-pen-to-square m-r-5"></i> {{ 'DASHBOARD.EDIT' | translate }}</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_appointment"><i class="fa fa-trash-alt m-r-5"></i> {{ 'DASHBOARD.DELETE' | translate }}</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -252,7 +251,7 @@
             <div class="col-12 col-xl-12">
                 <div class="card">
                     <div class="card-header pb-0">
-                        <h4 class="card-title d-inline-block">{{ 'DASHBOARD.Recent Patients' | translate }} </h4> <a [routerLink]="routes.patientsList" class="float-end patient-views">{{ 'DASHBOARD.Show all' | translate }}</a>
+                        <h4 class="card-title d-inline-block">{{ 'DASHBOARD.RECENT_PATIENTS' | translate }} </h4> <a [routerLink]="routes.patientsList" class="float-end patient-views">{{ 'DASHBOARD.SHOW_ALL' | translate }}</a>
                     </div>
                     <div class="card-block table-dash">
                         <div class="table-responsive">
@@ -265,11 +264,11 @@
                                             </div>
                                         </th>
                                         <th mat-sort-header="no">No</th>
-                                        <th mat-sort-header="patientName">{{ 'DASHBOARD.Patient_name' | translate }}</th>
-                                        <th mat-sort-header="age">{{ 'DASHBOARD.Age' | translate }}</th>
-                                        <th mat-sort-header="dateOfBirth">{{ 'DASHBOARD.Date of Birth' | translate }}</th>
-                                        <th mat-sort-header="diagnosis">{{ 'DASHBOARD.Diagnosis' | translate }}</th>
-                                        <th mat-sort-header="triage">{{ 'DASHBOARD.Triage' | translate }}</th>
+                                        <th mat-sort-header="patientName">{{ 'DASHBOARD.PATIENT_NAME' | translate }}</th>
+                                        <th mat-sort-header="age">{{ 'DASHBOARD.AGE' | translate }}</th>
+                                        <th mat-sort-header="dateOfBirth">{{ 'DASHBOARD.DATE_OF_BIRTH' | translate }}</th>
+                                        <th mat-sort-header="diagnosis">{{ 'DASHBOARD.DIAGNOSIS' | translate }}</th>
+                                        <th mat-sort-header="triage">{{ 'DASHBOARD.TRIAGE' | translate }}</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -293,8 +292,8 @@
                                             <div class="dropdown dropdown-action">
                                                 <a href="javascript:void(0);" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item" [routerLink]="routes.editPatient"><i class="fa-solid fa-pen-to-square m-r-5"></i> {{ 'DASHBOARD.Edit' | translate }}</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_appointment"><i class="fa fa-trash-alt m-r-5"></i> {{ 'DASHBOARD.Delete' | translate }}</a>
+                                                    <a class="dropdown-item" [routerLink]="routes.editPatient"><i class="fa-solid fa-pen-to-square m-r-5"></i> {{ 'DASHBOARD.EDIT' | translate }}</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_appointment"><i class="fa fa-trash-alt m-r-5"></i> {{ 'DASHBOARD.DELETE' | translate }}</a>
                                                 </div>
                                             </div>
                                         </td>

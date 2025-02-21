@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+
 
 import { AddPatientRoutingModule } from './add-patient-routing.module';
 import { AddPatientComponent } from './add-patient.component';
@@ -13,7 +15,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports: [
     CommonModule,
     AddPatientRoutingModule,
-    SharedModule
+    SharedModule,
+    TranslateModule
   ]
 })
 export class AddPatientModule { }

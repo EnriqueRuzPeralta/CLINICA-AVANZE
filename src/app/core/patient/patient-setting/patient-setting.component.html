@@ -1,14 +1,14 @@
 <div class="page-wrapper">
     <div class="content">
-    
+
         <!-- Page Header -->
         <div class="page-header">
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a [routerLink]="routes.patientsList">Patients </a></li>
+                        <li class="breadcrumb-item"><a [routerLink]="routes.patientsList">{{ 'PATIENTS.PATIENTS' | translate }} </a></li>
                         <li class="breadcrumb-item"><i class="feather icon-chevron-right"></i></li>
-                        <li class="breadcrumb-item active">Patient Profile</li>
+                        <li class="breadcrumb-item active">{{ 'PATIENTS.PATIENTS_PROFILE' | translate }}</li>
                     </ul>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="about-info">
-                                    <h4>Patient Profile  <span><a href="javascript:;"><i class="feather icon-more-vertical"></i></a></span></h4>
+                                    <h4>{{ 'PATIENTS.PATIENTS_PROFILE' | translate }}  <span><a href="javascript:;"><i class="feather icon-more-vertical"></i></a></span></h4>
                                 </div>
                                 <div class="doctor-profile-head">
                                     <div class="profile-bg-img">
@@ -42,35 +42,35 @@
                                                 </div>
                                                 <div class="names-profiles">
                                                     <h4>Smith Bruklin</h4>
-                                                    <h5>Engineer</h5>
+                                                    <h5>{{ 'PATIENTS.ENGINEER' | translate }}</h5>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 d-flex align-items-center">
                                             <div class="follow-group">
                                                 <div class="doctor-follows">
-                                                    <h5>Followers</h5>
+                                                    <h5>{{ 'PATIENTS.FOLLOWERS' | translate }}</h5>
                                                     <h4>850</h4>
                                                 </div>
                                                 <div class="doctor-follows">
-                                                    <h5>Following</h5>
+                                                    <h5>{{ 'PATIENTS.FOLLOWING' | translate }}</h5>
                                                     <h4>18K</h4>
                                                 </div>
                                                 <div class="doctor-follows">
-                                                    <h5>Posts</h5>
+                                                    <h5>{{ 'PATIENTS.POSTS' | translate }}</h5>
                                                     <h4>250</h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 d-flex align-items-center">
                                             <div class="follow-btn-group">
-                                                <button type="submit" class="btn btn-info follow-btns">Follow</button>
-                                                <button type="submit" class="btn btn-info message-btns">Message</button>
+                                                <button type="submit" class="btn btn-info follow-btns">{{ 'PATIENTS.FOLLOW' | translate }}</button>
+                                                <button type="submit" class="btn btn-info message-btns">{{ 'PATIENTS.MESSAGE' | translate }}</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>								
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,22 +80,22 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="heading-detail ">
-                                        <h4 class="mb-3">About me</h4>
+                                        <h4 class="mb-3">{{ 'PATIENTS.ABOUT_ME' | translate }}</h4>
                                         <p>Hello I am Smith Bruklin a Gynaecologist in Sanjivni Hospital Surat. I love to work with all my hospital staff and seniour doctors.</p>
                                     </div>
                                     <div class="about-me-list">
                                         <ul class="list-space">
                                             <li>
-                                                <h4>Gender</h4>
-                                                <span>Male</span>
+                                                <h4>{{ 'PATIENTS.GENDER' | translate }}</h4>
+                                                <span>{{ 'PATIENTS.MALE' | translate }}</span>
                                             </li>
                                             <li>
-                                                <h4>Operation Done</h4>
+                                                <h4>{{ 'PATIENTS.OPERATION_DONE' | translate }}</h4>
                                                 <span>30+</span>
                                             </li>
                                             <li>
-                                                <h4>Designation</h4>
-                                                <span>Engineer</span>
+                                                <h4>{{ 'PATIENTS.DESIGNATION' | translate }}</h4>
+                                                <span>{{ 'PATIENTS.ENGINEER' | translate }}</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -106,12 +106,12 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="heading-detail">
-                                        <h4>Skills:</h4>
+                                        <h4>{{ 'PATIENTS.SKILLS' | translate }}</h4>
                                     </div>
                                     <div class="skill-blk">
                                         <div class="skill-statistics">
                                             <div class="skills-head">
-                                                <h5>Heart Beat</h5>
+                                                <h5>{{ 'PATIENTS.HEART_BEAT' | translate }} </h5>
                                                 <p>45%</p>
                                             </div>
                                             <div class="progress mb-0"  >
@@ -120,7 +120,7 @@
                                         </div>
                                         <div class="skill-statistics">
                                             <div class="skills-head">
-                                                <h5>Haemoglobin</h5>
+                                                <h5>{{ 'PATIENTS.HAEMOGLOBIN' | translate }}</h5>
                                                 <p>85%</p>
                                             </div>
                                             <div class="progress mb-0"  >
@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="skill-statistics">
                                             <div class="skills-head">
-                                                <h5>Blood Pressure </h5>
+                                                <h5>{{ 'PATIENTS.BLOOD_PRESSURE' | translate }} </h5>
                                                 <p>65%</p>
                                             </div>
                                             <div class="progress mb-0"  >
@@ -138,7 +138,7 @@
                                         </div>
                                         <div class="skill-statistics">
                                             <div class="skills-head">
-                                                <h5>Sugar </h5>
+                                                <h5>{{ 'PATIENTS.SUGAR' | translate }} </h5>
                                                 <p>90%</p>
                                             </div>
                                             <div class="progress mb-0"  >
@@ -157,10 +157,10 @@
                                     <div class="tab-content-set">
                                         <ul class="nav">
                                             <li>
-                                                <a [routerLink]="routes.patientProfile" ><span class="set-about-icon me-2"><img src="assets/img/icons/menu-icon-02.svg" alt=""></span>About me</a>
+                                                <a [routerLink]="routes.patientProfile" ><span class="set-about-icon me-2"><img src="assets/img/icons/menu-icon-02.svg" alt=""></span>{{ 'PATIENTS.ABOUT_ME' | translate }}</a>
                                             </li>
                                             <li>
-                                                <a [routerLink]="routes.patientSetting" class="active"><span class="set-about-icon me-2"><img src="assets/img/icons/menu-icon-16.svg" alt=""></span>Settings</a>
+                                                <a [routerLink]="routes.patientSetting" class="active"><span class="set-about-icon me-2"><img src="assets/img/icons/menu-icon-16.svg" alt=""></span>{{ 'PATIENTS.SETTINGS' | translate }}</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -169,73 +169,73 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-heading">
-                                                        <h4>Account Setting</h4>
+                                                        <h4>{{ 'PATIENTS.ACCOUNT_SETTING' | translate }}</h4>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-sm-12">  
+                                                <div class="col-12 col-sm-12">
                                                     <div class="form-group local-forms">
-                                                        <label for="Username ">Username </label>
+                                                        <label for="Username ">{{ 'PATIENTS.USER_NAME' | translate }} </label>
                                                         <input class="form-control" type="text" value="smith@29" >
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-sm-12">  
+                                                <div class="col-12 col-sm-12">
                                                     <div class="form-group local-forms">
-                                                         <label  for="mobile" >Mobile </label>
+                                                         <label  for="mobile" >{{ 'PATIENTS.MOBILE' | translate }} </label>
                                                         <input class="form-control" type="text" value="+1 43 456890" >
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-12">
                                                     <div class="form-group local-forms">
-                                                        <label for="email" >Email </label>
+                                                        <label for="email" >{{ 'PATIENTS.EMAIL' | translate }} </label>
                                                         <input class="form-control" type="email" value="smithbruklin@info.com" >
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-12">
                                                     <div class="form-group local-forms">
-                                                        <label for="address">Address  <span class="login-danger">*</span></label>
+                                                        <label for="address">{{ 'PATIENTS.ADDRESS' | translate }}  <span class="login-danger">*</span></label>
                                                         <textarea class="form-control" rows="3" cols="30">101, Elanxa Apartments, 340 N Madison Avenue</textarea>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div class="form-heading">
-                                                    <h4>Security Setting</h4>
+                                                    <h4>{{ 'PATIENTS.SECURITY_SETTING' | translate }}</h4>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-12">
                                                 <div class="form-group local-forms">
-                                                    <label for="password" >Current Password </label>
+                                                    <label for="password" >{{ 'PATIENTS.CURRENT_PASSWORD' | translate }} </label>
                                                     <input class="form-control" type="password" value="12345" >
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-12">
                                                 <div class="form-group local-forms">
-                                                    <label  for="newpassword">New Password </label>
+                                                    <label  for="newpassword">{{ 'PATIENTS.NEW_PASSWORD' | translate }} </label>
                                                     <input class="form-control" type="password" placeholder="" >
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-12">
                                                 <div class="form-group local-forms">
-                                                    <label for="confirmpassword" >Confirm Password </label>
+                                                    <label for="confirmpassword" >{{ 'PATIENTS.CONFIRM_PASSWORD' | translate }} </label>
                                                     <input class="form-control" type="password" placeholder="" >
                                                 </div>
                                             </div>
                                             <div class="col-12 col-sm-12">
                                                 <div class="profile-check-blk form-group">
                                                     <div class="remember-me">
-                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> Profile Visibility For Everyone
+                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> {{ 'PATIENTS.PROFILE_VISIBILITY_FOR_EVERYONE' | translate }}
                                                         <input type="checkbox" name="radio" checked>
                                                         <span class="checkmark"></span>
                                                         </label>
                                                     </div>
                                                     <div class="remember-me">
-                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> New task notifications
+                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me">{{ 'PATIENTS.NEW_TASK_NOTIFICATIONS' | translate }}
                                                         <input type="checkbox" name="radio" checked>
                                                         <span class="checkmark"></span>
                                                         </label>
                                                     </div>
                                                     <div class="remember-me">
-                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> New friend request notifications
+                                                        <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> {{ 'PATIENTS.NEW_FRIEND_REQUEST_NOTIFICATIONS' | translate }}
                                                         <input type="checkbox" name="radio">
                                                         <span class="checkmark"></span>
                                                         </label>
@@ -244,8 +244,8 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="doctor-submit">
-                                                    <button type="submit" class="btn btn-primary submit-form me-2">Submit</button>
-                                                    <button type="submit" class="btn btn-primary cancel-form">Cancel</button>
+                                                    <button type="submit" class="btn btn-primary submit-form me-2">{{ 'PATIENTS.SUBMIT' | translate }}</button>
+                                                    <button type="submit" class="btn btn-primary cancel-form">{{ 'PATIENTS.CANCEL' | translate }}</button>
                                                 </div>
                                             </div>
                                             </form>
