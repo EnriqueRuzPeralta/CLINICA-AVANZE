@@ -296,7 +296,132 @@
       "PROFILE_VISIBILITY_FOR_EVERYONE":"Visibilidad del perfil para todos",
       "NEW_TASK_NOTIFICATIONS":"Nuevas notificaciones de tareas",
       "NEW_FRIEND_REQUEST_NOTIFICATIONS":"Notificacion de nuevas solicitudes de amistad"
+    },
+
+    "SCHEDULE":{
+    "DOCTOR_SCHEDULE": "Horario del doctor",
+    "ADD_SCHEDULE": "Añadir horario",
+    "DOCTOR_NAME": "Nombre del doctor",
+    "DEPARTMENT":"Departamento",
+    "AVALIABLE_DAYS":"Dias disponibles",
+    "FROM": "De",
+    "TO":"A",
+    "NOTES": "Notas",
+    "STATUS":"Estado",
+    "ACTIVE":"Activo",
+    "IN_ACTIVE": "Inactivo",
+    "CREATE_SCHEDULE":"Crear horario",
+    "CANCEL":"Cancelar",
+
+
+    "EDIT_SCHEDULE":"Editar horario",
+    "SCHEDULE_LIST": "Lista de horarios",
+    "AVALIABLE_TIME":"Tiempo disponible",
+    "PREVIOUS":"Anterior",
+    "NEXT":"Siguiente",
+    "EDIT":"Editar",
+    "DELETE":"Eliminar"
+
+  },
+
+  "DEPARTMENT":{
+    "DEPARTMENT":"Departamento",
+    "ADD_DEPARTMENT":"Añadir departamento ",
+    "DEPARTMENT_NAME":"Nombre del departamento",
+    "DEPARTMENT_HEAD":"Jefe de departamento",
+    "DESCRIPTION": "Descripción",
+    "DEPARTMENT_DATE":"Fecha de departamento",
+    "STATUS":"Estado",
+    "ACTIVE":"Activo",
+    "IN_ACTIVE":"Inactivo",
+    "CREATE_DEPARTMENT":"Crear departamento",
+    "CANCEL":"Cancelar",
+
+    "DEPARTMENT_LIST":"Lista de departamento",
+    "DATE":"Fecha",
+    "PREVIOUS":"Anterior",
+    "NEXT":"Siguiente",
+    "EDIT_DEPARTMENT":"Editar departamento"
+  },
+
+  "REPORTS": {
+
+      "REPORTS": "Reportes",
+      "EXPENSE_REPORT": "Reporte de gastos",
+      "SEARCH_HERE": "Buscar aqui",
+      "PURCHASED_BY": "Comprado por",
+      "FROM": "En",
+      "TO": "A",
+     "ITEM": "Articulo",
+      "PURCHASE_FROM": "Compra en",
+      "PURCHASE_BY": "Comprado por",
+       "PAID_BY": "Pagado Desde",
+       "DATE": "Dato",
+       "AMOUNT": "Importe",
+       "STATUS": "Estado",
+       "SHOWING": "Mostrando 1 a 8 de 8 entradas",
+      "PREVIOUS": "Anterior",
+      "NEXT": "Siguiente",
+      "APPROVED": "Aprobado",
+      "REJECTED": "Rechazado",
+      "PENDING": "Pendiente",
+      "NEW": "Nuevo",
+       "EDIT": "Editar",
+      "DELETE": "Eliminar",
+      "DEBIT_CARD": "Tarjeta de Débito",
+      "SEARCH": "Buscar"
+
+    },
+
+    "INVOICE": {
+
+    "SEARCH_HERE": "Buscar aquí",
+    "INVOICE_REPORTS": "Reporte de Facturas",
+    "PATIENT": "Paciente",
+    "SELECT_PATIENT": "Seleccionar Paciente",
+    "FROM": "Desde",
+    "TO": "A",
+    "SEARCH": "Buscar",
+    "SELECT_ALL": "Seleccionar Todo",
+    "INVOICE_NUMBER": "Número de Factura",
+    "CLIENT": "Cliente",
+    "CREATED_DATE": "Fecha de Creación",
+    "DUE_DATE": "Fecha de Vencimiento",
+    "AMOUNT": "Monto",
+    "STATUS": "Estado",
+    "SELECT": "Seleccionar",
+    "PAID": "Pagado",
+    "SHOWING": "Mostrando 1 a 1 de 1 entradas",
+    "NEXT": "Siguiente",
+    "PREVIOUS": "Anterior",
+    "Select Patient" : "Selecciona Paciente",
+    "EDIT": "Editar",
+    "DELETE": "Borrar"
+   },
+
+   "ACTIVITES" :{
+
+      "ACTIVITIES": "Actividades",
+      "USER_ACTIVITY": "Actividad del Usuario",
+      "COMPLETED_THE_PATIENT_VISIT_AT_GLORY_HOSPITAL_IN_FLORIDA,_USA": "Completó la visita del paciente en el Hospital Glory en Florida, EE. UU.",
+      "TODAY": "Hoy",
+      "Uploaded_3_new_photos_for_World_Safety_Event": "Subió 3 fotos nuevas para el Evento Mundial de Seguridad",
+      "Yesterday": "Ayer",
+      "Doctors_Meeting": "Reunión de Médicos",
+      "was_Completed_the_Operation_With_in_Deadline": "Completó la operación dentro del plazo",
+      "Posted_a_Blog_about_Corona_Safety_Measurements": "Publicó un blog sobre las medidas de seguridad contra el coronavirus",
+      "Safety": "Seguridad",
+      "Keep_Hand_Sanitizers_Away_from_Young_Children": "Mantenga los desinfectantes de manos lejos de los niños pequeños",
+      "Read_more_in_8_Minutes": "Leer más en 8 minutos"
     }
+
+
+
+
+
+
+
+
 
 
   }

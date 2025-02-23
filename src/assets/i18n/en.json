@@ -294,7 +294,129 @@
       "NEW_TASK_NOTIFICATIONS":"New Task Notification",
       "NEW_FRIEND_REQUEST_NOTIFICATIONS":"New Friend Request Notification"
 
+  },
+
+  "SCHEDULE":{
+    "DOCTOR_SCHEDULE":"Doctor Schedule",
+    "ADD_SCHEDULE": "Add Schedule",
+    "DOCTOR_NAME": "Doctor Name",
+    "DEPARTMENT":"Deparment",
+    "AVALIABLE_DAYS":"Available Days",
+    "FROM": "From",
+    "TO":"To",
+    "NOTES":"Notes",
+    "STATUS":"Status",
+    "ACTIVE":"Active",
+    "IN_ACTIVE":"In Active",
+    "CREATE_SCHEDULE":"Create Schedule",
+    "CANCEL": "Cancel",
+    "EDIT_SCHEDULE":"Edit Schedule",
+    "DEPARMENT":"Deparment",
+
+    "SCHEDULE_LIST": "Schedule list",
+    "AVALIABLE_TIME": "Avaliable Time",
+    "PREVIOUS":"Previous",
+    "NEXT":"Next",
+    "EDIT":"Edit",
+    "DELETE":"Delete"
+  },
+
+  "DEPARTMENT":{
+    "DEPARTMENT":"Deparment",
+    "ADD_DEPARTMENT":"Add Department",
+    "DEPARTMENT_NAME":"Department Name",
+    "DEPARTMENT_HEAD":"Department Head",
+    "DESCRIPTION":"Description",
+    "DEPARTMENT_DATE":"Department Date",
+    "STATUS":"Status",
+    "ACTIVE":"Active",
+    "IN_ACTIVE":"In Active",
+    "CREATE_DEPARTMENT":"Create Department",
+    "CANCEL":"Cancel",
+
+    "DEPARTMENT_LIST":"Deparment List",
+    "DATE":"Date",
+    "PREVIOUS":"Previous",
+    "NEXT":"Next",
+    "EDIT_DEPARTMENT":"Edit Department"
+  },
+
+  "REPORTS": {
+
+    "REPORTS": "Reports",
+    "EXPENSE_REPORT": "Expense Report",
+    "SEARCH_HERE": "search here",
+    "PURCHASED_BY": "Purchased by",
+    "FROM": "From",
+    "TO": "To",
+    "ITEM": "Item",
+    "PURCHASE_FROM": "Purchase From",
+    "PURCHASE_BY": "Purchase by",
+    "PAID_BY": "Paid by", 
+    "DATE": "Date",
+    "AMOUNT": "Amount",
+    "STATUS": "Status",
+    "SHOWING": "Showing 1 to 8 of 8 entries",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next",
+    "APPROVED": "Approved",
+     "REJECTED": "Rejected",
+     "PENDING": "Pending",
+     "NEW": "New",
+     "EDIT": "Edit",
+     "DELETE": "Delete",
+      "DEBIT_CARD": "Debit Card",
+      "SEARCH": "Search"
+
+  },
+
+    "INVOICE": {
+
+    "INVOICE_REPORTS": "Invoice Report",
+    "SEARCH_HERE": "Search here",
+    "PATIENT": "Patient",
+    "SELECT_PATIENT": "Select Patient",
+    "FROM": "From",
+    "TO": "To",
+    "SEARCH": "Search",
+    "SELECT_ALL": "Select All",
+    "INVOICE_NUMBER": "Invoice Number",
+    "CLIENT": "Client",
+    "CREATED_DATE": "Created Date",
+    "DUE_DATE": "Due Date",
+    "AMOUNT": "Amount",
+    "STATUS": "Status",
+    "SELECT": "Select",
+    "PAID": "Paid",
+    "SHOWING": "Swowing 1 to 1 of 1 entries",
+    "Select Patient" : "Select Patient",
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next"
+    },
+
+    "ACTIVITES" :{
+      " ACTIVITES " : "Activites ",
+      " USER_ACTIVITY" :"User activity",
+      "COMPLETED_THE_PATIENT_VISIT_AT_GLORY_HOSPITAL_IN_FLORIDA,_USA" : "Completed the patient visit at glory hospital in florida, usa",
+      "TODAY" : "Today",
+      "UPLOADED_3_NEW_PHOTOS_FOR_WORLD_SAFETY_EVENT" : "uploaded 3 new photos for world safety event",
+      "YESTERDAY" : "Yesterday",
+      "DOCTORS_MEETING" : "Doctors meeting",
+      "WAS_COMPLETED_THE_OPERATION_WITH_IN_DEADLINE" : "Was completed the operation with in deadline",
+      "POSTED_A_BLOG_ABOUT_CORONA_SAFETY_MEASUREMENTS" : "Posted a blog about corona safety measurements",
+      "SAFETY" : "Safety",
+      "KEEP_HAND_SANITIZERS_AWAY_FROM_YOUNG_CHILDREN" : "Keep hand sanitizers away from young children",
+      "READ_MORE_IN_8_MINUTES" : "Read more in 8 minutes"
+
   }
+
+}
+
+
+
+
 
 
 
